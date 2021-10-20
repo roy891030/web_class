@@ -1,7 +1,7 @@
 p{
     font-size: 20px;
     font-family:  'Patrick Hand SC', cursive;
-    font-family: 'Crimson Pro', serif;;
+    font-family: 'Crimson Pro', serif;
     color: rgb(109, 111, 253);
 }
 
@@ -9,6 +9,8 @@ h1{
     display: flex;
     justify-content: center; 
     align-items: center; 
+    font-family:  'Patrick Hand SC', cursive;
+    font-family: 'Crimson Pro', serif;
     color: rgb(2, 3, 112);
 }
 
@@ -16,5 +18,26 @@ h2{
     display: flex;
     justify-content: center; 
     align-items: center; 
+    font-family: 'Crimson Pro', serif;
     color: rgb(2, 3, 112);
+    text-decoration:underline;
 }
+
+ol{
+    list-style-type: lower-alpha; 
+}
+
+table {
+    text-align: left;
+    
+    width: 500px;
+    border-spacing: 10px;
+    box-shadow: 10px 10px 6px #444; 
+}
+
+a:hover
+        {
+            color: #ff7b00;
+        }
+
+th{background-color: gray;}
